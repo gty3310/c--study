@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int cake[5];//拥有从cake[0]到cake[4]的五个elements
+    cake[2]=59;
+    int sum= cake[1]+cake[0]+cake[2]+cake[3]+cake[4];
+
+    //char my_name[5]={'d','e','r','y','\t'};
+    char my_name[10]="ghag780w";
+    cin>>my_name;
+    cout<<my_name[3]<<endl;//将打印出第四个字母
+
+    string your_name;
+    your_name="Tianyu";
+    your_name.append(" Guo");
+    cout<<your_name;
+}
